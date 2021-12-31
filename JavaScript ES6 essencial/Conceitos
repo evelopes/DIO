@@ -1,0 +1,54 @@
+ECMAScript -
+TC39 - 
+
+babeljs.io 
+
+JS: linguagem interpretada, ele é executado de cima para baixo e é imediatamente interpretado.
+
+
+typesript e flow,
+
+Currying: transformar uma função com vários parametros, em uma função que retorna apenas um parametro! 
+
+Hoisting: levantar ou suspender algo. 
+    de variaveis: eleva a criação da variavel
+    de função: eleva ela como um todo
+
+Imutabilidade: 
+
+
+Bloco, função ou global.
+
+Tipos: string, number, boolean, null, undefined, symbol, object, function, array.
+Variaveis: var, let e const.
+    Var: primeiro
+    Let: 
+    Const: criar constante
+
+
+Escopo "global" e de "função", com o let/const foi introduzido o escopo de "bloco".
+
+Escopo global: Fica fora das chaves. ex=
+//escopo global
+{
+    //escopo de bloco
+} 
+
+Escopo de função: É o conteudo de bloco dentro de uma função.
+Function teste(){
+    //escopo de função
+}
+
+Escopo de bloco: 
+{
+    //isso é um escopo de bloco
+}
+
+if(){    
+    //isso TAMBÉM é um escopo de bloco
+}
+
+
+Var não compreende escopo de bloco, apenas de função e global. Então, ele sobe o resultado.
+
+Let e const, respeitam o escopo de bloco.
